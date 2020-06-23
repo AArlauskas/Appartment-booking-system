@@ -1,0 +1,127 @@
+$border-color: #e2e8f0;
+$border-focus-color: #2b6cb0;
+$border-color-hover: #cbd5e0;
+
+$background-color-paper: #f7fafc;
+$background-color-selection: #cbd5e0;
+
+$input-background-color: #edf2f7;
+$input-background-color-hover: #a0aec0;
+
+$color-text: #1a202c;
+$color-text-error: #c53030;
+
+.tags-create-edit-modal {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-decoration-skip-ink: "auto";
+    text-rendering: optimizeLegibility;
+}
+
+.tags-create-edit-modal-form > label {
+    color: $color-text;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.tags-create-edit-modal-form > input[type="text"] {
+    appearance: none;
+    background-color: $input-background-color;
+    border: 2px solid $border-color;
+    border-radius: 10px;
+    color: $color-text;
+    font-size: 1rem;
+    padding: 0.65rem 0.5rem;
+    width: 380px;
+}
+
+.tag-create-edit-modal-multiselect {
+    margin-top: 20px;
+}
+
+.tags-create-edit-modal-form > input:hover {
+    border: 2px solid $input-background-color-hover;
+    outline: none;
+}
+
+.tags-create-edit-modal-form > input:focus {
+    border: 2px solid $border-focus-color;
+    outline: none;
+}
+
+.text-error {
+    color: $color-text-error;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.paper {
+    background-color: $background-color-paper;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
+    padding: 16px 32px 24px;
+    position: absolute;
+    width: auto;
+}
+
+div {
+    &.css-yk16xz-control {
+        background-color: $input-background-color;
+        border: 2px solid $border-color;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: $color-text;
+        font-size: 1rem;
+        height: auto;
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 0.65rem 0.5rem;
+        width: 400px;
+    }
+
+    &.css-1pahdxg-control {
+        background-color: $input-background-color;
+        border: 2px solid $border-color;
+        border-radius: 10px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: $color-text;
+        font-size: 1rem;
+        height: auto;
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 0.65rem 0.5rem;
+        width: 400px;
+
+        &:hover {
+            border: 2px solid $border-color-hover;
+            outline: none;
+        }
+    }
+
+    &.select__control--is-focused {
+        border: 2px solid $border-focus-color;
+        outline: none;
+
+        &:hover {
+            border: 2px solid $border-focus-color;
+            outline: none;
+        }
+    }
+
+    &.css-1rhbuit-multiValue {
+        background-color: $background-color-selection;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

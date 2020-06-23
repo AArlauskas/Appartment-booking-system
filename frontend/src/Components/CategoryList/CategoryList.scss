@@ -1,0 +1,89 @@
+.category-list {
+    .tag {
+        /* Spacing between tags */
+        margin-left: 5px;
+    }
+
+    .spacing-between-lines {
+        /* Spacing between lines inside a category button */
+        line-height: 25px;
+        max-height: 52px;
+        overflow: hidden;
+    }
+
+    .MuiButton-root {
+        &.category-button {
+            /* Allowing non-uppercase characters and making the button wide */
+            padding-right: 0;
+            padding-top: 0;
+            text-transform: none;
+            width: 100%;
+            background-color: #f0f0f0;
+            border-bottom: 2px groove #f03030;
+        }
+
+        &.subcategory-button {
+            /* Allowing non-uppercase characters and making the button wide, moving it to the right */
+            margin-left: 60px;
+            padding-right: 0;
+            text-transform: none;
+            width: 100%;
+            background-color: #fafafa;
+            border-bottom: 1px outset #fafafa;
+        }
+    }
+
+    .MuiListItem-gutters {
+        &.padding {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+        }
+    }
+
+    .color-blue {
+        //TODO remove hardcoded color style with SA2020SJ-45  sttory
+        color: rgb(0, 0, 255);
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        margin-left: 1px;
+        margin-right: 1px;
+
+        &:hover {
+            background-color: #ce2b27;
+            color: #f5f5f5;
+        }
+    }
+
+    .icon-box-expand {
+        margin-top: 7px;
+        margin-right: 7px;
+        width: 30px;
+        height: 30px;
+        background-color: #f0f0f0;
+        color: #555;
+
+        &:hover {
+            background-color: #ce2b27;
+            color: #f5f5f5;
+        }
+    }
+
+    .icon-box-less {
+        margin-top: 7px;
+        margin-right: 7px;
+        width: 30px;
+        height: 30px;
+        background-color: #ce2b27;
+        color: #f5f5f5;
+
+        &:hover {
+            background-color: #ff302b;
+            color: #fefefe;
+        }
+    }
+}

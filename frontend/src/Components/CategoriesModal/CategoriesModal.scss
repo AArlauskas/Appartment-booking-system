@@ -1,0 +1,48 @@
+.categoriesModal {
+    .paper {
+        position: absolute;
+        width: 400px;
+        top: 50px;
+        left: 100px;
+        background-color: white;
+        border: 2px solid #000;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        transform: translate(100%, 10%);
+    }
+
+    .nameField {
+        width: 400px;
+    }
+
+    .categoryName {
+        width: 100%;
+    }
+
+    .descriptionField {
+        height: 100px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    .categoryDescription {
+        width: 100%;
+    }
+
+    .select {
+        width: 100%;
+    }
+}
+
+.errStyle {
+    color: #ff604f;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: "1rem";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: "0.00938em";
+    line-height: 1.75;
+}

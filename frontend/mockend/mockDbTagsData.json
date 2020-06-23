@@ -1,0 +1,68 @@
+{
+    "tagsData": [{
+            "id": 1,
+            "tagName": "One-Room Apartments",
+            "Categories": ["Category1", "Category2", "Category4"]
+        },
+        {
+            "id": 2,
+            "tagName": "Two-Room Apartments",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 3,
+            "tagName": "Tagger 3",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 4,
+            "tagName": "Tag 4",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 5,
+            "tagName": "Taggy 5",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 6,
+            "tagName": "Tagger 6",
+            "Categories": []
+        },
+        {
+            "id": 7,
+            "tagName": "Tag 7",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 8,
+            "tagName": "Taggy 8",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 9,
+            "tagName": "Taggy 9",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 10,
+            "tagName": "Tagger 10",
+            "Categories": []
+        },
+        {
+            "id": 11,
+            "tagName": "Tag 11",
+            "Categories": ["Category1"]
+        },
+        {
+            "id": 12,
+            "tagName": "Taggy 12",
+            "Categories": ["Category2"]
+        },
+        {
+            "id": 13,
+            "tagName": "50 Symbols  LongLongLongLongTaggy 1312345678901234",
+            "Categories": ["Category1"]
+        }
+    ]
+}

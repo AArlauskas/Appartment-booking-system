@@ -1,0 +1,27 @@
+{
+    "categoriesData": [{
+        "value": 0,
+        "categoryName": "Category0"
+      },
+      {
+        "value": 1,
+        "categoryName": "Category1"
+      },
+      {
+        "value": 2,
+        "categoryName": "Category2"
+      },
+      {
+        "value": 3,
+        "categoryName": "all this work and no play makes jack a dull boy all this work and no play makes jack a dull boy"
+      },
+      {
+        "value": 4,
+        "categoryName": "Category4"
+      },
+      {
+        "value": 5,
+        "categoryName": "Category5"
+      }
+    ]
+}

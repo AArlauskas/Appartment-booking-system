@@ -1,0 +1,91 @@
+$overflow: hidden;
+$text-overflow: ellipsis;
+$word-wrap: normal;
+
+$display-block: block;
+$display-inline-block: inline-block;
+$display-inline: inline;
+$display-flex: flex;
+
+$center: center;
+$left: left;
+$initial: initial;
+$fixed: fixed;
+$auto: auto;
+
+$line-height: 1em;
+
+$table-width: 100%;
+
+$td-max-height: 1em;
+$td-max-width: 100%;
+$td-min-width: 70px;
+
+$root-width: 99%;
+$root-height: 100%;
+$root-min-width: 900px;
+$root-margin: none;
+$root-padding: 10px;
+$container-height: 750px;
+
+$categories-max-height: 8em;
+$categories-max-width: 100%;
+$categories-min-width: 20px;
+
+$tag-min-width: 350px;
+$tag-max-width: 350px;
+
+$actions-min-width: 72px;
+$actions-max-width: 100%;
+
+.root {
+    margin: $root-margin;
+    min-width: $root-min-width;
+    padding-left: $root-padding;
+    padding-right: $root-padding;
+    padding-top: $root-padding;
+    padding-bottom: $root-padding;
+    width: $root-width;
+    height: $root-height;
+}
+
+.container {
+    max-height: $container-height;
+}
+
+.cell-tag {
+    display: $display-block;
+    justify-content: $left;
+    max-width: $tag-max-width;
+    min-width: $tag-min-width;
+}
+
+.cell-categories {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: $line-height;
+    max-height: $categories-max-height;
+    max-width: $categories-max-width;
+    min-width: $categories-min-width;
+    overflow: $overflow;
+    text-overflow: $text-overflow;
+    word-wrap: $word-wrap;
+}
+
+.cell-actions {
+    display: $display-block;
+    justify-content: $center;
+    max-width: $actions-max-width;
+    min-width: $actions-min-width;
+}
+
+table {
+    table-layout: $initial;
+    width: $table-width;
+}
+
+td {
+    max-height: $td-max-height;
+    max-width: $td-max-width;
+    min-width: $td-min-width;
+}

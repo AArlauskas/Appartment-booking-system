@@ -1,0 +1,15 @@
+{
+  "listData": [{
+      "id": 1,
+      "text": "mockend Text 1"
+    },
+    {
+      "id": 2,
+      "text": "mockend Text 2"
+    },
+    {
+      "id": 3,
+      "text": "mockend Text 3"
+    }
+  ]
+}

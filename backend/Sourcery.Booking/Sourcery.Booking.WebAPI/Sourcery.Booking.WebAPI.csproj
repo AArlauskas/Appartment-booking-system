@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200430085047_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200505093316_addTagEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200505093316_addTagEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505093448_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505093448_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505175319_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200505175319_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505182151_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505182151_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505182554_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505182554_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505182812_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505182812_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505182848_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505182848_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505183101_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505183101_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505183845_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505183845_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505183948_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200505183948_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505184733_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505184733_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505185239_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505185239_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505185334_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200505185334_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505185446_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200505185446_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200505185457_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200505185457_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506172421_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200506172421_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506172512_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200506172512_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506172819_addCategoryEntityConfiguration.cs" />
+    <Compile Remove="Migrations\20200506172819_addCategoryEntityConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506184908_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200506184908_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506185547_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200506185547_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506185643_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200506185643_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200506185927_addScheduledEventConfiguration.cs" />
+    <Compile Remove="Migrations\20200506185927_addScheduledEventConfiguration.Designer.cs" />
+    <Compile Remove="Migrations\20200510125436_add.cs" />
+    <Compile Remove="Migrations\20200510125436_add.Designer.cs" />
+    <Compile Remove="Migrations\20200510131044_add.cs" />
+    <Compile Remove="Migrations\20200510131044_add.Designer.cs" />
+    <Compile Remove="Migrations\20200511163708_add.cs" />
+    <Compile Remove="Migrations\20200511163708_add.Designer.cs" />
+    <Compile Remove="Migrations\20200511163930_adda.cs" />
+    <Compile Remove="Migrations\20200511163930_adda.Designer.cs" />
+    <Compile Remove="Migrations\20200511164136_adda.cs" />
+    <Compile Remove="Migrations\20200511164136_adda.Designer.cs" />
+    <Compile Remove="Migrations\20200511164228_addaa.cs" />
+    <Compile Remove="Migrations\20200511164228_addaa.Designer.cs" />
+    <Compile Remove="Migrations\20200511164701_adda.cs" />
+    <Compile Remove="Migrations\20200511164701_adda.Designer.cs" />
+    <Compile Remove="Migrations\20200511164813_addaq.cs" />
+    <Compile Remove="Migrations\20200511164813_addaq.Designer.cs" />
+    <Compile Remove="Migrations\20200521161100_color.cs" />
+    <Compile Remove="Migrations\20200521161100_color.Designer.cs" />
+    <Compile Remove="Migrations\20200603103533_DeleteCascade.cs" />
+    <Compile Remove="Migrations\20200603103533_DeleteCascade.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sourcery.Booking.Models\Sourcery.Booking.Models.csproj" />
+  </ItemGroup>
+
+
+</Project>

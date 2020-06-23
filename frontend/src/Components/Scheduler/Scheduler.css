@@ -1,0 +1,219 @@
+.scheduler-header {
+    text-align: center;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.checkboxForm {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.MuiIconButton-colorSecondary {
+    color: #ce2b27;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #ce2b27;
+}
+
+.parent-slot {
+    display: inline;
+}
+
+.parent-slot .header2-text {
+    padding-left: 75px;
+    font-weight: bold;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.child-slot .header2-text {
+    text-align: left;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.parent-slot-text {
+    padding-top: 3px;
+    float: left;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.expand-icon {
+    float: left;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.expand-less {
+    float: left;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.child-slot-text {
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.scheduler-buttons-block {
+    display: inline;
+    padding-bottom: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.scheduler-add-event-btn {
+    float: left;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.scheduler-add-event-btn .ButtonBlock .Button {
+    float: left;
+    width: 115px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.scheduler-today-btn {
+    float: left;
+    padding-bottom: 15px;
+}
+
+.header3-text {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.popover-calendar {
+    width: 538px;
+}
+
+.ant-fullcalendar {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ant-radio-button-wrapper {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.ant-popover {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.ant-radio-button-wrapper-checked .ant-radio-button-wrapper-disabled {
+    color: #ce2b27;
+}
+
+.ant-fullcalendar-column-header .ant-fullcalendar-column-header-inner {
+    display: block;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#RBS-Scheduler-root ::selection {
+    color: #fff;
+    background: #ce2b27;
+}
+
+.ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value,
+.ant-fullcalendar-today .ant-fullcalendar-value {
+    -webkit-box-shadow: 0 0 0 1px #ae1b17 inset;
+    box-shadow: inset 0 0 0 1px #ae1b17;
+}
+
+.ant-radio-button-wrapper-checked {
+    background-color: #ce2b27;
+    color: #fff;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    z-index: 1;
+    color: #ce2b27;
+    background: #fff;
+    border-color: #ce2b27;
+    -webkit-box-shadow: -1px 0 0 0 #ce2b27;
+    box-shadow: -1px 0 0 0 #ce2b27;
+}
+
+.ant-radio-button-wrapper-checked:hover {
+    z-index: 1;
+    color: #ce2b27;
+    background: #fff;
+    border-color: #ce2b27;
+    -webkit-box-shadow: -1px 0 0 0 #ce2b27;
+    box-shadow: -1px 0 0 0 #ce2b27;
+}
+
+.ant-radio-button-wrapper:hover {
+    color: #ce2b27;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+    outline: 3px solid rgba(221, 24, 24, 0.06);
+    outline-color: rgba(221, 24, 24, 0.06);
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #ae1b17;
+    border-color: #ae1b17;
+    -webkit-box-shadow: -1px 0 0 0 #ae1b17;
+    box-shadow: -1px 0 0 0 #ae1b17;
+}
+
+.ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value,
+.ant-fullcalendar-selected-day .ant-fullcalendar-value {
+    color: #fff;
+    background: #ae1b17;
+}
+
+.ant-select-selection:hover {
+    border-color: #ae1b17;
+    border-right-width: 1px !important;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-color: #ae1b17;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.ant-radio-button-wrapper > .ant-radio-button:hover {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    color: #ae1b17;
+}
+
+.ant-select-open .ant-select-selection {
+    box-shadow: 0 0 0 2px #ae1b17;
+    border-color: #ce2b27;
+}
+
+.ant-select-selection:focus {
+    box-shadow: 0 0 0 2px #ae1b17;
+    border-color: #ce2b27;
+}
+
+.ant-fullcalendar-value:active {
+    background-color: #ce2b27;
+}
+
+.ant-fullcalendar-value:hover {
+    background-color: #f0f0f0;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #f0f0f0;
+}
+
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #f0f0f0;
+}

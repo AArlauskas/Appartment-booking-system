@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcery.Booking.WebAPI", "Sourcery.Booking.WebAPI\Sourcery.Booking.WebAPI.csproj", "{D6960E18-7158-4284-A6D8-01C7BD022A11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcery.Booking.Models", "Sourcery.Booking.Models\Sourcery.Booking.Models.csproj", "{5B360CAE-4DDC-4D6C-8AC8-E268B9D8438D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6960E18-7158-4284-A6D8-01C7BD022A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6960E18-7158-4284-A6D8-01C7BD022A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6960E18-7158-4284-A6D8-01C7BD022A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6960E18-7158-4284-A6D8-01C7BD022A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B360CAE-4DDC-4D6C-8AC8-E268B9D8438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B360CAE-4DDC-4D6C-8AC8-E268B9D8438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B360CAE-4DDC-4D6C-8AC8-E268B9D8438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B360CAE-4DDC-4D6C-8AC8-E268B9D8438D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70624C57-8535-44F0-B866-BC4C9D4C4695}
+	EndGlobalSection
+EndGlobal

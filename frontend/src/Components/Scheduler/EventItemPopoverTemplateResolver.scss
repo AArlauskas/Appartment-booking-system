@@ -1,0 +1,27 @@
+//prettier-ignore
+.CustomPopoverShort {
+    width: 200px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.CustomPopoverAuto {
+    width: auto;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#PopoverButtons {
+    color: #108ee9;
+    cursor: pointer;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#PopoverButtons:hover {
+    text-decoration: underline;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#date {
+    font-weight: bold;
+    color: rgb(20, 47, 97);
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}

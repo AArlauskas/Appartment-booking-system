@@ -1,0 +1,35 @@
+{
+    "schedulerEvents": [{
+            "id": 1,
+            "start": "2020-03-16 12:00:00",
+            "end": "2020-03-20 18:00:00",
+            "resourceId": "A1",
+            "title": "Crazy weekend planed",
+            "isApproved": true
+        },
+        {
+            "id": 2,
+            "start": "2020-03-16 12:00:00",
+            "end": "2020-03-20 18:00:00",
+            "resourceId": "A2",
+            "title": "Crazy weekend planed",
+            "isApproved": true
+        },
+        {
+            "id": 3,
+            "start": "2020-03-17 10:45:00",
+            "end": "2020-03-18 14:30:00",
+            "resourceId": "A3",
+            "title": "HR meeting",
+            "isApproved": false
+        },
+        {
+            "id": 4,
+            "start": "2020-03-18 10:45:00",
+            "end": "2020-03-18 14:30:00",
+            "resourceId": "A5",
+            "title": "Executives party",
+            "isApproved": false
+        }
+    ]
+}

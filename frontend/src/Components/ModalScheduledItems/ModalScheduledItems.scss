@@ -1,0 +1,79 @@
+.rootSubCat {
+    width: 450px;
+
+    & > * + * {
+        margin-top: 48px;
+    }
+}
+
+.scheduledModal {
+    .paper {
+        background-color: #f7fafc;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
+        padding: 16px 32px 24px;
+        position: absolute;
+        width: 450px;
+    }
+
+    .errStyle {
+        color: #ff604f;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-size: "1rem";
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: "0.00938em";
+        line-height: 1.75;
+    }
+
+    .textContainers {
+        width: 450px;
+        height: 70px;
+    }
+
+    .dateContainer {
+        height: 80px;
+    }
+
+    .statusLabel {
+        margin-top: 8px;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+    }
+
+    .subCatsContainer {
+        width: 450px;
+    }
+
+    .buttonStyle {
+        margin-top: 32px;
+        margin-left: 46px;
+        background-color: #ce2b27;
+
+        &:hover {
+            background-color: #ae1b17;
+        }
+    }
+
+    .nameTextField {
+        & > * {
+            width: 443px;
+        }
+    }
+
+    section {
+        float: left;
+        margin-bottom: 0;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        margin-top: 0;
+        width: 45%;
+    }
+
+    aside {
+        float: right;
+        margin: 0 1.5%;
+        width: 40%;
+    }
+}
