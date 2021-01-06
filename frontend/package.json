@@ -83,7 +83,7 @@
     "@material-ui/pickers": "^3.2.10",
     "acorn": "^7.1.1",
     "adal-vanilla": "^1.0.18",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "confusing-browser-globals": "^1.0.9",
     "date-fns": "^2.12.0",
