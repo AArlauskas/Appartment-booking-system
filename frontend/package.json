@@ -53,7 +53,7 @@
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.6.0",
     "moxios": "^0.4.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "react-test-renderer": "^16.13.1",
     "react-testing-library": "^6.1.2",
